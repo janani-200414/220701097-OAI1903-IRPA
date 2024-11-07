@@ -1,0 +1,200 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="848.8,2037.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="531.2,1972.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="EmailAddress" />
+      <Variable x:TypeArguments="x:String" Name="Password" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="468.8,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[“Enter your Email Address”]" Title="Email Address">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[EmailAddress]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="468.8,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="[“Enter your Password”]" Title="[“Password”]">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[Password]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="468.8,262.4" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" Url="[“www.uipath.com”]">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,104.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: AI at work-The Business Automation Platform™-Leader in RPA, AI &amp; Automation | Ui" sap:VirtualizedContainerService.HintSize="468.8,1074.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" ScopeGuid="d0f00e33-db2a-43cc-bb18-0261a07bdcce" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,760" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Chrome Legacy Window'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0f00e33-db2a-43cc-bb18-0261a07bdcce" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="9, 182, 1920, 847" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' check:text='Chrome Legacy Window' /&gt;" Guid="896c425c-f599-4ecd-8621-2cc507a210ca" InformativeScreenshot="ecbc347f391c5674f6fd81f713b51a1a.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='AI at work-The Business Automation Platform™-Leader in RPA, AI &amp;amp;*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Chrome Legacy Window'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0f00e33-db2a-43cc-bb18-0261a07bdcce" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="9, 117, 1920, 912" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' check:text='Chrome Legacy Window' /&gt;" Guid="3fda571d-4194-4b1c-b4d8-0dee7ba1675d" InformativeScreenshot="9b92cf76a7560b0b754f6e8e9bd43505.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Continue with UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Chrome Legacy Window'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0f00e33-db2a-43cc-bb18-0261a07bdcce" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="9, 117, 1920, 912" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' check:text='Chrome Legacy Window' /&gt;" Guid="2ef802bf-cbce-41b2-b54f-d4520a16143f" InformativeScreenshot="8ac2ec5dbd58eafb2fc30872ab9d4e30.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Continue with UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA0gSURBVGhDvZcJWFXVFoCviYYjiAOogJdBQQZBQBFBRgUcwUpzYvCZqWnxSiufZVjpyxwCR8x5zBwSMzOfDNdM65ma+X2vp880NOfPJxeoXujFvd5aezici0fU6r31ff+31l77XM6/99nnAqY/Ilo4NHQe4eaS/XYXj7x1wT6Fx3t3KzvXJ9R6IzECbiT2gHOx3a3HooLKCsP8LG939shLaeuc7u7Y2NyocXMnb7+UzLj+s3cPHrXxzNPj91URWJ/GXqGXX3IGXSNv88cGSU/wcM0pDO1iUaIi6+oENRZcTwjnnO2bACtGvMWyJhXdHTP5INTHyAkHfo2ImZLv2NTFVd769wWJv2zukPt9n5DyGwnhjIvFh9lnEkco63tEyaAxbNzE/Yay9TF8/KeV7l4xaVLjt8XL5vYoro4GCdGO1srxXlwYUzt9Detrcd35+Ep8BGwYNgPGPGcxFHwYRj9nYUERGa+bTA0aSKWHCzqvJRGBJ2k3OSRYJytRnuMxx4dJ6Jpw2Js23lCqLihpV+vHCh///mOl2oNjuGubrLMxIVZNEKW4oCaql5XEhcFVIrY7uxobyg4NeBoynyu5R8QIEs7AnDnl/gsYNbH4TnuPiH5S8f4xrZNbrpJVYmp3SU7kUJFxjua5PPauxnWXOQz+mrHkHgkjRj8n8tPPlsITfyq+Z14PfXNJTeOY6umWq99dJSN2VtaxKIn5Sh8pTDX2CD6HnEmMfehzn4G7/uS4Ypi75FvYb7kEoyYZPwEC+6xJ09btpa59DHdtnXWVS+mOgxwLUSkos5AOpYWIOiaEqbwzbbKhgBGZzx+EIZkHYGvhObhtq4GRE0txEaWG1xKdA4dMlMq1QS/s6ajgci6I0iRBovpdFdIoy0VFvqxqvohQuIyZmJm1mhnd3Ah6AmlZRbBh+1m4VVFd7xMgEgfP2y+1a+NoZECZ3S6SENVSSJ95Hd2NKVmNGCKE53ETPzO8uRH0BGgBm3Z8DxVVtx+4gOHP7K2Q2iJe8nDN1XaR0InbC5KcDlpEnd4lmbMm1f8y6gUzpli0BVgrq/kRqm8BIyceqJbqJlPjNk3N81+Mr91NlLqE8AVoQrU1zfGs6B3MLqdGQ+WaAqj+5hjYrl4Biuyczw1vrkfttHoHHnYBdk/APDFsfez6dPhmQA9t9+wFpXB0N4mqQ+DaU6lc2ihyXv/K8OaE+tqkRdL5z3rhIAwdi+/AtrN8AbSw+l5i+gOQyzdu3dQc9sETEI5Mmp2sif2Iu2ovLfhRERXErPnvwt2qKqkr4qqVwd5vb8MqSzXkzD5leHOBBYY9UwLnL1TyXe83fB/0HbYPdn1aBuX4Eg8bX1LvE9B+F7jEemaHbklj3bekQ9iWobBvWKQUDGY891YEc2mqL2KuWL1cKov45ORtmLj+Z+iRWwE9Z1XynPzKWcObE7Tr6dlF8MmBi2CruQsrNp6GVZvPQM1dBts+Ps/n6BqjzxLa16j/nISToZvTGMnTQjLnpQpZKX2xF0ljVkQFQ3n+XKlNO34XJqwT4hGzKqAHEkE10vu164Y3V9AOj5hQCuvx2Jz53gpnzlXA2q3/wt/Gavfv/wSatXAz8+MTsmkIC8EFdN+cDqEI5aUTotnFXoEMd5oLU31Bji+nJzN1bEh+cF6VJkyEv1ELjdP/fMJQQH88aLeHji2WFBleo2fhO4vBudljzqaW4a5poZvSoC7Ra4bAd7HB7EIkidMigoDyhcgA9tPe3Vye4tm1P6GoVQeKo3SYrhc14xqMmmz8baQE6RuIjgtBtX6uLtnPF8GNot6Q2d8p29RhVGBeyMYhIEjjmRbQbeNgNvf5Ppp0WWQglPUKhMtDk6U6wB488yRqjFiEIvGV84YyAvtfWKI2licsm8aC7Ut/WPhCu3yTz/QoS7cNQyB4w2CmX0TwhkGM+kf7hQKXl9x67x2pDzBwYSV0n2mtBUXtxnVInnraUOhR2LFiGtiO+DHbEX/46B333aauC5LKum0YDEYErx/ERs5JYmU9urIfkLKeAfDria+5/JlrNRCKUgTJqbp+yqHPqxdg5ORDhnL18UzOZ3Bs21Mo3xnlO7OaI13g/E6vMlPQ+oGs23oURoI5g3hNfaqptyetO1/AD7gA9fKW/vMOhKAQ53WZERIVWd/T960QMeM6DLnPi23E/DmL4MaBSLAd9mW2w515rjniCzc/87KagtcNgqB1KIv5fiQtToUfIvzZ+XA/xu0xCkp/hW4orlCydj2Dmi9W1lGv/gj98FhNeeskTHvzKIx78RCMy9kPU6d/CO/OXsJ2FLwE/9g1AEjWdtib1Rz2gZrDvnzMa8ymwHUDWBBK2jMQgtYiWAeuHcACkPxxveB8uL+2gOUl/9Hk9ATXM647p3r0s1SQaK2swltwxIfmwfaFFz4BzFibui5NsQas7c8CSRihmnLgmgF8TP2ANf1Zz4JUOBUdgH+kXeY32v1NNQS/Vg5Br93imUR41td1sro2iHq6fgkeRx62Si5FsrYvzLgQLxx7yQVgjT2eRc17Jt958WUkSXRFUU0cs4L6xPScaPjP8aP8XlfwFxgJCYScMXXn7r329NUa/jNZxVdcqgblSLAWT0a92r4nI85t71hmcp8cVhiwegDuspANWN3fru66OpURvI/XHd+5kt+MInt1JQSiQCBKifzoJC+okD8N4O75N1GuE4rag7JgO+SB0gTWcly82NVichsRkCfkhCxfjBwT/qtScAGUUxkxIi9N3g6g8MRtCJhxCwJQhIM1SfHeA1DXFZ6olj8NoObrKBR0x90mQcruJE2yfCyyBPsLpzjlm5yiOmaTJBddlQoEX8wqhegJxPjo1VPylgBZq6qgK4ooSKrrjH9rovo5+2tu4Wcr5U/B43NjhxKVdEThDghld6jhPRpj/YVgSIxjmqlhEwdnLrcyFfxWJvNF+PMaF4VZD/XomqStWVB1+2d+48vld6HvPCv4ozSJ+/9F5Nr6ltaja1Sv73wrXMb3iKKq+mfc/UiSFaKft+c15Rp95nSQ8+2Z2bWhmf857TG1h8V/ZYoUTQG/95NRHsfvq57o87HszfmygN+cghaRibtJcvcgF6AnA6+lz6ioOItnn0uRnBvjHGpPPd3YDRfRHhco+idWtznJ5Smckzxz/FBM0WVFP1Y7Trbr87kVorfk+CapIGLX8WpIfLccuqCkH6KyImNlBezSnXmKj06tgXILHQ9NWIcrSuvHghokI8UxS+qbTI85Ojj75iVYO6McwQWlJOUuEpqjrO/Rk6AjoI/TV2qg6LvbsLjoF1hS/Asu7Fe7Haeoqv4J5hwpgB17uqJUO9plzK6ydkVJqhXtcNwObAfbMoLmtOOjwmWQd66S6lKAsgV9WZeCflgj2POVY9/lmOW4s5yP2zyafXTmb1LtwfH3K99C3KbRLG51LMqimOJgGxREtHFbjpRHWtMCYM2rLdZJ7dqgp+C9IL5ciXVejlDmdV+7MUlrY5qT4/hNY2DO4QIueKnqutQFXlNv8dcbIXxtuvgsfu5CEX6raGJtMBO62kK13RzH0/Ux+91X0Wqgdy7uML+Bz/IkponzrBBjn2U0z5+IVlPfd5mAeiqLeX0vkb38QRjKuOBxIDEXEhWSllayJlzsM869ke2YK3WNw2N65EkloVDyvsuSJPr5umN9T12fBN5LE7k81WEF8XDhAL6MUooLWkjSBXsi2yzOjPcsrXCMYD63teUPUvP+4eDiaPaaH2v1WZoECrqpPpOMyAlMiVEWJPA5Rd2xz9JEyNvuj3KtUJbEnNkdixOOCWfZc2KU75S25D3i5ictreb7HZ260aKnW7bXkgRGqJsKsF6CmcCxN+baa8QcjbU+Zqr1n4t5P1pK1cqJ2kkKO4FNyy0Y1jynRTdKl3oPFy79vWfRzY3wWhyvSWr9xQn3XKcw4/X0GWL7LvxTmcSUoKUliossZJujdAtalADrmZmPz5JajxbO/c25XAwREiITSsy8COvFtKgEjjYvxyoTI9ZEcCE9NRaSte/ZSpsx3i9tDm9kNar/pX1QNA1qk+45N8aKopqI16IE6LQoDuXjGNWq54XXUJ+gMX1GP76wH19KlCMxe5ohTbHfDO6UNGE25OaeptbMFIdsqfH7wqGVo9n9jcgyLpiP4vky45hLYt0pPxYRcxrafCx7aUOQkOOiTYEkubjoiVzShDIcW+l40uza4OFe2EcJp9ROuUrME6XM+XFc1DOPapFV3SlPzBHRy3rh7uO3C4kKWYmjJm0reZzd/LixdWamw2877w8b9DRaj/RbR6IkqcdjYR++AI+8PnwOa95ftQ3/DURBFCZpQfHjWn3z40blMzMb5jo3a+Asb/O/D1pI8x5u2e2nhZ8kcS78XqyG6MVC76W9SL4WEi9uzBAofq+RZcqTDXP+r+JGQYuhl9053Tuv7aRgS4fXe5bRItwXxLAPd3TEHXawnt3iULbzTYfCBZMa5mWkNMj6Y6RNpv8C13G8j4gcJBMAAAAASUVORK5CYII=" InformativeScreenshot="809090d53579a4ec5a7b85836b44f78b.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='AI at work-The Business Automation Platform™-Leader in RPA, AI &amp;amp;*' /&gt;" Title="AI at work-The Business Automation Platform™-Leader in RPA, AI &amp; Automation | UiPath - Google Chrome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
